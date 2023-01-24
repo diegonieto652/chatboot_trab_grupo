@@ -23,6 +23,9 @@ def quesconsultas1 ():
     2 PARA CANCELAR CONSULTA
     3 PARA REMARCAR CONSULTA
     ''')
+def questionarioconsultas2 ():
+    print('''
+    1 - ''')
 def separador ():
     print('*'*30)
 
@@ -81,3 +84,34 @@ while inicio != '4':
                 print('Saindo...')
                 break
             separador()
+    elif inicio == '2':
+        quesconsultas1()
+        questio1 = input("Digite uma opção")
+        if questio1 =='1':
+            print("Clique aqui para ver consultas agendadas")
+            questionario3()
+            quest3= input("Digite uma opção")
+            if quest3 =='1':
+                pass
+            elif quest3 =='2':
+                print("Saindo...")
+                break
+
+        elif questio1 =='2':
+            print("Clique aqui para cancelar consultas")
+            questionario3()
+            quest3 = input('Digite uma opção')
+            if quest3 =='1':
+                pass
+            elif quest3 == '2':
+                print("Saindo...")
+                break
+        elif questio1 =='3':
+            print("Clique aqui para remarcar consultas")
+            questionario3()
+            quest3= input("Digite uma opção")
+            if quest3 =='1':
+                pass
+            elif quest3 =='2':
+                print("Saindo...")
+                break
