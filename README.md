@@ -19,7 +19,7 @@ avançando dentro desse atendimento simulado até que chegue ao final obtendo a 
 
 >####RESOLUÇÃO:
 >
->>Escolhemos uma empresa da área da sáude, no ramo de atuação com coleta labotatorial e clínica diagnóstica.
+>>Escolhemos uma empresa da área da saúde, no ramo de atuação com coleta labotatorial e clínica diagnóstica.
 
 >>O funcionamento do nosso código, vai de encontro a um sistema de perguntas e respostas prontas
 no sentido de que, há mensagens que são enviadas ao usuário de início
